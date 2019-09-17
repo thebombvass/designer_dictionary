@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+  <header>
+    The Fashion App is this
+  </header>
 
   </div>
 </template>
@@ -19,6 +22,6 @@ export default {
 
 <style>
 #app {
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>

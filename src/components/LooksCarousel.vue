@@ -9,3 +9,7 @@ export default {
     name: 'LooksCarousel',
 }
 </script>
+
+<style scoped>
+
+</style>
