@@ -2,6 +2,7 @@
     "status":"OK",
     "brands": [
       {
+        "index": 0,
         "name": "Gucci",
         "brand_logo": "../assets/gucci_logo.jpg",
         "year_founded": 1921,
@@ -12,6 +13,7 @@
         "bio": "Influential, innovative and progressive, Gucci is reinventing a wholly modern approach to fashion. Under the new vision of creative director Alessandro Michele, the House has redefined luxury for the 21st century, further reinforcing its position as one of the world’s most desirable fashion houses. Eclectic, contemporary, romantic—Gucci products represent the pinnacle of Italian craftsmanship and are unsurpassed for their quality and attention to detail. Gucci is part of the Kering Group, a world leader in apparel and accessories that owns a portfolio of powerful luxury, sport and lifestyle brands."
       },
       {
+        "index": 1,
         "name": "Prada",
         "brand_logo": "../assets/prada_logo.jpg",
         "year_founded": 1913,
@@ -22,6 +24,7 @@
         "bio": "Prada always thinks outside the box and doesn’t create their designs based on preconceived styles or fashion trends. As a result, the label prides itself on the uncompromised quality and freedom of expression. The Italian luxury fashion house is one of the biggest names in the industry, founded in 1913 by Mario Prada. Specializing in leather handbags, travel accessories, shoes, ready-to-wear, perfumes and other fashion accessories, the brand has managed to stand the test of time."
       },
       {
+        "index": 2,
         "name": "Fendi",
         "brand_logo": "../assets/fendi_logo.jpg",
         "year_founded": 1925,
@@ -32,6 +35,7 @@
         "bio": "Founded in 1925 in Rome, Fendi is one of the original designer brands, reaching over 90 years of age. The Italian fashion house was just a fur and leather shop when it was first launched by Adele and Edoardo Fendi. Keeping to their roots, the label is still, to this day, the only brand to have an in-house, fur atelier. Their product line also includes bags, shoes, accessories, eyewear, fragrances, leather goods and ready to wear clothing."
       },
       {
+        "index": 3,
         "name": "Versace",
         "brand_logo": "../assets/versace_logo.jpg",
         "year_founded": 1978,
@@ -42,6 +46,7 @@
         "bio": "Founded in 1978, the Gianni Versace S.r.l. is one of the leading global fashion design houses. Under the Artistic Direction of Donatella Versace since 1997, Gianni Versace S.r.l. designs, manufactures and distributes fashion and lifestyle products including haute couture, women and men ready-to-wear, jewelry, watches, accessories, fragrances and home collection. Gianni Versace S.r.l. is part of Capri Holdings Limited global fashion luxury group."
       },
       {
+        "index": 4,
         "name": "Saint Laurent",
         "brand_logo": "../assets/ysl_logo.png",
         "year_founded": 1961,
@@ -52,6 +57,7 @@
         "bio": "Yves Saint Laurent and his partner, Pierre Bergé, founded the brand 1961. The French luxury house is still considered one of the world’s most prominent fashion houses, known for its modern and iconic pieces. Saint Laurent embodies youth culture and emphasises gender-fluidity through their gender-neutral clothing and simple, yet classic style, that’s explosively cool, entwining rebellious, punk with luxury."
       },
       {
+        "index": 5,
         "name": "Givenchy",
         "brand_logo": "../assets/givenchy_logo.jpg",
         "year_founded": 1952,
@@ -62,6 +68,7 @@
         "bio": "The French luxury fashion and perfume house was founded in 1952 by designer Hubert de Givenchy came to prominence through his mastery of silhouette. The label strikes the perfect balance between traditional and modern style, keeping to a casual yet classic look that has been inspired by many artists, friends, muses and loyal clients. Though the fashion house is now owned by the luxury conglomerate, LVMH, the brand is still known for being one of the original top-designer brands, and a leader in the fashion industry."
       },
       {
+        "index": 6,
         "name": "Balmain",
         "brand_logo": "../assets/balmain_logo.jpg",
         "year_founded": 1945,
@@ -72,6 +79,7 @@
         "bio": "Balmain has a design heritage of rich decorative fabrics and luxe trims. The label uses innovative ways to embody its French legacy. It has a unique style and immaculate craftsmanship that is evident in the small details. Each design carries one of their signature embellishments, including their gold medallions, the new re-designed logo, buttons and symbols, the blazon coat of arms, their gold ornaments, or tassels."
       },
       {
+        "index": 7,
         "name": "Balenciaga",
         "brand_logo": "../assets/balenciaga_logo.jpg",
         "year_founded": 1919,
@@ -82,6 +90,7 @@
         "bio": "Balenciaga is now more than 100 years old, with the luxury fashion house being founded in Spain back in 1917, by Cristóbal Balenciaga. Though the brand is now owned by the French multinational company, Kering, they have managed to uphold the label’s high-end status, as well as its on-trend style that can only be described as inventive, expensive and bold."
       },
       {
+        "index": 8,
         "name": "Louis Vuitton",
         "brand_logo": "../assets/louisv_logo.jpg",
         "year_founded": 1854,
@@ -92,6 +101,7 @@
         "bio": "Louis Vuitton decided that he wanted to become a trunk master at the ripe age of sixteen. Not only did this lead to him becoming a designer, but also an inventor, creating locks that had never been seen before. The brand continues to be best known for their bags and luggage, with travel remaining at the heart of the house alongside their RTW collections. It has been part of the LVMH Moët Hennessy – Louis Vuitton Group since 1987. Over the past 160 years, Louis Vuitton has constantly reinvented itself and actively embraced the technical and artistic revolutions of each era."
       },
       {
+        "index": 9,
         "name": "Giorgio Armani",
         "brand_logo": "../assets/ga_logo.jpg",
         "year_founded": 1975,
@@ -102,6 +112,7 @@
         "bio": "Italian fashion designer, Giorgio Armani formed his company in 1975, reaching the status of ‘most successful designer of Italian origin’ by 2001. The Italian luxury brand is one of the biggest and most influential names in fashion, best known for their suits and formal wears clean, tailored lines. Armani is a symbol of success for many business professionals and has been since the early ’80s."
       },
       {
+        "index": 10,
         "name": "Tom Ford",
         "brand_logo": "../assets/tomf_logo.jpg",
         "year_founded": 2005,
@@ -112,6 +123,7 @@
         "bio": "In 2005 Tom Ford announced the creation of his brand, and while it is a relatively new name to the fashion world, Ford has already succeeded at making it as well known as your ‘old as time’ designer brands; he spent the previous fifteen years working to revolutionize Gucci. Tom Ford is your one-stop fashion shop that supplies everything from apparel to luggage and fragrances."
       },
       {
+        "index": 11,
         "name": "Berluti",
         "brand_logo": "../assets/berluti_logo.jpg",
         "year_founded": 1895,
@@ -122,6 +134,7 @@
         "bio": "Berluti exceeds at making bags, accessories and ready-to-wear clothing, but the heart of the company is their leather shoes. Due to challenging the boundaries of craftsmanship, the fashion house was able to create their own special leathers and unique designs, including a supple smooth leather which can be transformed into many colors with the option of personalization."
       },
       {
+        "index": 12,
         "name": "Burberry",
         "brand_logo": "../assets/burberry_logo.jpg",
         "year_founded": 1856,
@@ -132,6 +145,7 @@
         "bio": "Thomas Burberry originally designed his clothing to protect people from the cold harsh British weather, sourcing hardwearing fabrics that revolutionized weatherproof clothing, starting in 1856. To this day, Burberry has a distinctive British identity known for its classic outerwear pieces, using traditional woven patterns and slick tailoring."
       },
       {
+        "index": 13,
         "name": "Comme Des Garcons",
         "brand_logo": "../assets/commedg_logo.jpg",
         "year_founded": 1973,
@@ -142,6 +156,7 @@
         "bio": "Comme Des Garçons was founded in 1969, yet wasn’t established as a company until 1973. The brand quickly made a name for itself in Japan, where it was created by Rei Kawakubo, before spreading to many other regions of the world. Though the label is nearly 50 years old it still manages to be the most inventive brand of the 21st century, specializing in making unique, funky, radical fashion that fiercely challenges conventions and transcends gender stereotypes with completely original clothing."
       },
       {
+        "index": 14,
         "name": "Dior",
         "brand_logo": "../assets/dior_logo.png",
         "year_founded": 1946,
@@ -152,6 +167,7 @@
         "bio": "The brand was founded in 1948 by Christian Dior. Though the European luxury goods company is now chaired by the French businessman, Bernard Arnault, who is also the head of LVMH which is the worlds largest luxury group. Dior’s sophisticated, contemporary and confident style, sticks to a formal and minimal style. While Dior Homme has introduced a characteristic slim silhouette under the creative direction of Hedi Slimane, the brand continues to challenge convention."
       },
       {
+        "index": 15,
         "name": "Calvin Klein",
         "brand_logo": "../assets/calvink_logo.jpg",
         "year_founded": 1968,
@@ -162,6 +178,7 @@
         "bio": "Calvin Klein was launched in 1968 by American fashion designer, Calvin Richard Klein. The label is a global lifestyle megabrand with a global presence that prides itself on its provocative, modern and sensual nature. The brand has a minimal aesthetic, that cleverly combines unstructured tailoring with iconic staples."
       },
       {
+        "index": 16,
         "name": "Ralph Lauren",
         "brand_logo": "../assets/ralphl_logo.jpg",
         "year_founded": 1967,
@@ -172,6 +189,7 @@
         "bio": "Ralph Lauren stands at the forefront of fashion, being a global leader in design and marketing since the fashion house was invented in 1967, while Ralph himself, is an icon in the industry. The brand provides apparel, accessories, and fragrance for men, women and children, and is super stylish. The label continues to be the leader in the latest trends and always provides the best runway looks."
       },
       {
+        "index": 17,
         "name": "Valentino",
         "brand_logo": "../assets/valentino_logo.jpg",
         "year_founded": 1960,
@@ -182,6 +200,7 @@
         "bio": "The brand was founded in 1959 in Rome by the Italian fashion designer, Valentino Clemente Ludovico Garavani. Valentino is one of the original leaders of international fashion and continues to be today. The label makes shoes, bags, eyewear, scarves, ties, fragrances and clothes that are super edgy and most interesting in style."
       },
       {
+        "index": 18,
         "name": "Ermenegildo Zegna",
         "brand_logo": "../assets/ez_logo.png",
         "year_founded": 1910,
@@ -192,6 +211,7 @@
         "bio": "Founded in 1910, Zegna is an Italian luxury fashion house specializing in men’s clothing and accessories. The label has a very holistic approach to the way they run the business, always sourcing high-quality, nature-friendly raw materials. In fact, the label is one of the biggest global producers of fine fabrics and have been active in promoting improvements in wool production around the world. By revenue, the brand just so happens to be the largest menswear brand in the world with its smart casual, basic designs."
       },
       {
+        "index": 19,
         "name": "Tommy Hilfiger",
         "brand_logo": "../assets/tommyh_logo.jpg",
         "year_founded": 1985,
@@ -202,6 +222,7 @@
         "bio": "TOMMY HILFIGER is one of the world’s leading designer lifestyle brands and is internationally recognized for celebrating the essence of classic American cool style, featuring preppy with a twist designs. The brand was acquired by PVH Corp in 2010."
       },
       {
+        "index": 20,
         "name": "Lacoste",
         "brand_logo": "../assets/lacoste_logo.jpg",
         "year_founded": 1933,
@@ -212,6 +233,7 @@
         "bio": "Founded by 1920’s tennis champion Rene Lacoste, one of the greatest preppy brands of all time emerged from a determination to improve sporting apparel which, at that time, was largely woven. He is credited with the invention of cotton pique, a sturdy knit fabric which to this day is still used in the company’s iconic polo shirts. Over time the Lacoste range has grown to include a strong offering of technical and outerwear apparel with punchy coloration and classic tennis whites."
       },
       {
+        "index": 21,
         "name": "Hermes",
         "brand_logo": "../assets/hermes_logo.jpg",
         "year_founded": 1837,
@@ -222,6 +244,7 @@
         "bio": "Hermes sells leather goods, accessories, perfumes and ready-to-wear clothing that is quite traditional in style. Out of all of their products, their leather goods are their biggest contributor to the company’s revenues, followed by their ready-to-wear line. The brand also has many partner brands including, John Lobb (bootmaker), Puiforcat (silversmith), Saint-Louis (crystal manufacturer) and Shang Xia (contemporary fine living lifestyle brand)."
       },
       {
+        "index": 22,
         "name": "Michael Kors",
         "brand_logo": "../assets/michaelk_logo.jpg",
         "year_founded": 1981,
@@ -232,6 +255,7 @@
         "bio": "Michael Kors is a world-renowned, award-winning designer of luxury accessories and ready-to-wear. He has won numerous accolades within the fashion industry, been honored for his philanthropy. His namesake company, established in 1981, currently produces a range of products, specializing in handbags and men's and women's ready-to-wear. The brand is dedicated to a vision of style that is as sophisticated as it is indulgent, as iconic as it is modern."
       },
       {
+        "index": 23,
         "name": "Oscar de la Renta",
         "brand_logo": "../assets/oscardlr_logo.jpg",
         "year_founded": 1965,
@@ -242,6 +266,7 @@
         "bio": "Oscar De la Renta began his own signature ready-to-wear label in 1965. The label was an immediate hit thanks to De la Renta’s use of colour, his vibrant prints and romantic rendering of Spanish and Caribbean silhouettes. The success of his line led to the launch of a perfume in 1977, as well as expansion into diffusion and bridal lines later in his career."
       },
       {
+        "index": 24,
         "name": "Chanel",
         "brand_logo": "../assets/chanel_logo.jpg",
         "year_founded": 1910,
@@ -252,6 +277,7 @@
         "bio": "Chanel specialises in haute couture, ready-to-wear, beauty, fragrance, and luxury accessories. Famed for the little black dress, No.5 perfume, tweed suits and the 2.55 bag, the label consistently ranks as the world's leading luxury brand. Alongside ready-to-wear, cruise, pre-fall and haute couture shows throughout the year, the brand also conceives Chanel’s métiers d’art shows designed to highlight the house's craftsmanship. Founded in 1910 by Gabrielle “Coco” Chanel, the French label is a privately held company owned by Alain and Gerard Wertheimer"
       },
       {
+        "index": 25,
         "name": "Dolce and Gabbana",
         "brand_logo": "../assets/dg_logo.jpg",
         "year_founded": 1985,
@@ -262,6 +288,7 @@
         "bio": "Originally inspired by eclectic, thrift shop bohemian style, Dolce & Gabbana's deeply colored, animal prints have been described as \"haute hippy dom\" taking inspiration in particular from Italy's prestigious film history. D & G trademarks include underwear-as-outerwear (such as corsets and bra fastenings), gangster boss pinstripe suits, and extravagantly printed coats"
       },
       {
+        "index": 26,
         "name": "Vera Wang",
         "brand_logo": "../assets/veraw_logo.png",
         "year_founded": 1990,
@@ -272,6 +299,7 @@
         "bio": "Vera Wang began a sweeping makeover of the bridal industry in 1990 and in 2000 her enthusiasm for couture fashion resulted in the launch of her highly acclaimed ready-to-wear collection. Known for her nonchalant approach to style and luxury, Vera Wang’s ready-to-wear collections resonate with her signature layering, intricate draping and exquisite attention to detail."
       },
       {
+        "index": 27,
         "name": "Salvatore Ferragamo",
         "brand_logo": "../assets/salf_logo.jpg",
         "year_founded": 1927,
@@ -282,6 +310,7 @@
         "bio": "Salvatore Ferragamo’s dream was always to transform his brand into a great fashion house, so when he passed in 1960, he left it as his legacy, hoping his family would fulfill his goal. Eventually succeeding, Salvatore Ferragamo is now one of the biggest and most well-known shoe labels, made from high-quality leathers and other unique materials."
       },
       {
+        "index": 28,
         "name": "Stella McCartney",
         "brand_logo": "../assets/stellam_logo.jpg",
         "year_founded": 2001,
@@ -292,6 +321,7 @@
         "bio": "Stella McCartney launched her brand in 2001, owning a 50% partnership with the Kering group. The label was one of the first fashion brands to join the sustainability movement, choosing to follow in the footsteps of her mother, Linda McCartney, an animal rights activist. Due to this, the brand uses non-violent materials to create their ready-to-wear clothing, accessories, lingerie, and eyewear, strongly believing in sustaining the planet and taking care of animals. Stella McCartney menswear has a unique urban look and is known for its soft tailored shapes and sporty feel."
       },
       {
+        "index": 29,
         "name": "Alexander McQueen",
         "brand_logo": "../assets/alexm_logo.jpg",
         "year_founded": 1992,
@@ -302,6 +332,8 @@
         "bio": "British fashion designer, Lee Alexander McQueen founded his label in 1992 after completing an apprenticeship at London’s prestigious Saville Row. Exaggerated shapes and innovative tailoring combined with traditional techniques are the label’s key look. Punky streetwear and strong graphic effects are also an essential part of the brand’s DNA."
       },
       {
+
+        "index": 30,
         "name": "Alexander Wang",
         "brand_logo": "../assets/alexw_logo.jpg",
         "year_founded": 2007,

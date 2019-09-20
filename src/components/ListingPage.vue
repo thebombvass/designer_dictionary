@@ -1,11 +1,11 @@
 <template>
     <div id="listingPage">
     
-    <a class="btn btn-light filter-btn" data-toggle="collapse" href="#filters" collapsed aria-controls="collapseExample">
+    <a class="btn btn-light filter-btn" data-toggle="collapse" href="#filters" collapsed aria-expanded="false">
         Filter content
     </a>
 
-    <div id="filters">
+    <div class="collapse in" id="filters">
         <div>
         <form>
             <div class="form-group">
@@ -40,9 +40,10 @@
 
     <div id="content">
         <ul class="list-unstyled">
-            <li v-for="brand in brands" v-bind:key="brand.name">
+            <li v-for="brand in brands" v-bind:key="brand.idex">
                 <img v-bind:src="brand.brand_logo"> 
                 <span>{{brand.name}}</span>
+                <button @click="$emit('see-details', ['MoreDetails', brand.index])">See Details <i class="fas fa-arrow-right"></i></button>
             </li>
         </ul>
     </div>
@@ -68,6 +69,11 @@ export default {
         }
     },
     computed: {
+        index() {
+            return json.brands.map((item) => {
+                return item.index
+            })
+        },
         names() {
             return json.brands.map((item) => {
             return item.name;
@@ -78,48 +84,21 @@ export default {
             return '/assets/' + item.brand_logo
             })
         },
-        year_founded() {
-            return json.brands.map((item) => {
-            return item.year_founded;
-            })
-        },
-        city_founded() {
-            return json.brands.map((item) => {
-            return item.city_founded;
-            })
-        },
-        pronounciation() {
-            return json.brands.map((item) => {
-            return item.pronounciation;
-            })
-        },
-        designers() {
-            return json.brands.map((item) => {
-            return item.designers;
-            })
-        },
-        site_url() {
-            return json.brands.map((item) => {
-            return item.site_url;
-            })
-        },
-        bio() {
-            return json.brands.map((item) => {
-            return item.bio;
-            })
-        },
     }
 }
 </script>
 
 <style scoped>
+#listingPage {
+    background-color: #141414;
+    padding-bottom: 30px;
+}
 
 form {
     padding: 10px;
 }
 
 li {
-    border: 2px solid black;
     margin: 15px;
     margin-bottom: 20px;
     background-color: white;
@@ -133,6 +112,19 @@ li img {
 li span {
     font-size: 20px;
     margin-left: 5px;
+}
+
+li button {
+    border: 2px solid rgb(255, 202, 214);
+    border-bottom: 2px solid rgb(216, 63, 63);
+    background-color: rgb(255, 202, 214);
+    position: absolute;
+    right: 25px;
+    margin-top: 15%;
+}
+
+button i {
+    color: rgb(216, 63, 63);
 }
 
 .filter-btn {

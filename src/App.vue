@@ -8,13 +8,15 @@
         <i class="fas fa-bars"></i>
       </button>
 
+      <!-- add when click brands or shows it also collapses -->
+
       <div class="collapse navbar-collapse container-fullwidth" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Brands<span class="sr-only">(current)</span></a>
+            <a @click="swapComponent(['ListingPage', selectedBrand])" class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" href="#">Brands<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Shows</a>
+            <a class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" href="#">Shows</a>
           </li>
         </ul>
         <!-- <form class="form-inline my-2 my-lg-0">
@@ -25,7 +27,13 @@
     </nav>
     </div>
   </header>
-  <listing-page></listing-page>
+      <component
+      v-on:see-details.capture="swapComponent"
+      v-bind:selectedBrand='selectedBrand'
+      :is="currentComponent"
+    ></component>
+  <!-- <listing-page></listing-page> -->
+  <!-- <more-details></more-details> -->
 
   </div>
 </template>
@@ -33,12 +41,29 @@
 <script>
 import LandingHome from './components/LandingHome.vue'
 import ListingPage from './components/ListingPage.vue'
+import MoreDetails from './components/MoreDetails'
 
 export default {
   name: 'app',
   components: {
     LandingHome,
     ListingPage,
+    MoreDetails,
+  },
+  data() {
+    return {
+      currentComponent: 'ListingPage',
+      selectedBrand: ''
+    }
+  },  methods: {
+    swapComponent: function(array) {
+      this.currentComponent = array[0];
+      this.selectedBrand =  array[1];
+      console.log(this.selectedBrand)
+    },
+    seeDetails: function(brand, comp) {
+      currentComponent(comp)
+    },
   }
 }
 </script>
@@ -54,6 +79,10 @@ Sinopia - #EA410E;
 
 header {
   position: sticky; /*fix */
+}
+
+button:focus {
+  outline: 0;
 }
 
 nav {
