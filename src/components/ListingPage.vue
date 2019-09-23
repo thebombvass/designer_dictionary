@@ -40,7 +40,7 @@
 
     <div id="content">
         <ul class="list-unstyled">
-            <li v-for="brand in brands" v-bind:key="brand.idex">
+            <li v-for="brand in brands" v-bind:key="brand.index">
                 <img v-bind:src="brand.brand_logo"> 
                 <span>{{brand.name}}</span>
                 <button @click="$emit('see-details', ['MoreDetails', brand.index])">See Details <i class="fas fa-arrow-right"></i></button>

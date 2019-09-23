@@ -13,10 +13,10 @@
       <div class="collapse navbar-collapse container-fullwidth" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a @click="swapComponent(['ListingPage', selectedBrand])" class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" href="#">Brands<span class="sr-only">(current)</span></a>
+            <a @click="swapComponent(['ListingPage', selectedBrand])" class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" href="#">Brands</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" href="#">Shows</a>
+            <a @click="swapComponent(['LooksPage', selectedBrand])" class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" href="#">Shows</a>
           </li>
         </ul>
         <!-- <form class="form-inline my-2 my-lg-0">
@@ -41,7 +41,8 @@
 <script>
 import LandingHome from './components/LandingHome.vue'
 import ListingPage from './components/ListingPage.vue'
-import MoreDetails from './components/MoreDetails'
+import MoreDetails from './components/MoreDetails.vue'
+import LooksPage from './components/LooksPage.vue'
 
 export default {
   name: 'app',
@@ -49,6 +50,7 @@ export default {
     LandingHome,
     ListingPage,
     MoreDetails,
+    LooksPage,
   },
   data() {
     return {
