@@ -7,6 +7,7 @@
         "brand_logo": "../assets/gucci_logo.jpg",
         "year_founded": 1921,
         "city_founded": "Florence, Italy",
+        "country": "IT",
         "pronounciation": "Goo-chi",
         "designers": "Guccio Gucci, Alessandro Michele, Tom Ford, Frida Giannini",
         "site_url": "https://www.gucci.com/us/en/",
@@ -18,6 +19,7 @@
         "brand_logo": "../assets/prada_logo.jpg",
         "year_founded": 1913,
         "city_founded": "Milan, Italy",
+        "country": "IT",
         "pronounciation": "Pra-da",
         "designers": "Mario Prada, Miuccia Prada",
         "site_url": "https://www.prada.com/us/en.html",
@@ -29,6 +31,7 @@
         "brand_logo": "../assets/fendi_logo.jpg",
         "year_founded": 1925,
         "city_founded": "Milan, Italy",
+        "country": "IT",
         "pronounciation": "Fen-di",
         "designers": "Adele Fendi, Edoardo Fendi,Karl Lagerfeld",
         "site_url": "https://www.fendi.com/us",
@@ -40,6 +43,7 @@
         "brand_logo": "../assets/versace_logo.jpg",
         "year_founded": 1978,
         "city_founded": "Milan, Italy",
+        "country": "IT",
         "pronounciation": "Ver-sa-cheh",
         "designers": "Gianni Versace, Donatella Versace",
         "site_url": "https://www.versace.com/us/en-us/home/",
@@ -51,6 +55,7 @@
         "brand_logo": "../assets/ysl_logo.png",
         "year_founded": 1961,
         "city_founded": "Paris, France",
+        "country": "FR",
         "pronounciation": "San Lor-on",
         "designers": "Yves Saint Lauent, Pierre Berge, Tom Ford, Hedi Slimane",
         "site_url": "https://www.ysl.com/us/",
@@ -62,6 +67,7 @@
         "brand_logo": "../assets/givenchy_logo.jpg",
         "year_founded": 1952,
         "city_founded": "Paris, France",
+        "country": "FR",
         "pronounciation": "Zhi-von-shee",
         "designers": "Hubert de Givenchy, Alexander McQueen, Riccardo Tisci",
         "site_url": "https://www.givenchy.com/us/en-US/homepage",
@@ -73,6 +79,7 @@
         "brand_logo": "../assets/balmain_logo.jpg",
         "year_founded": 1945,
         "city_founded": "Paris, France",
+        "country": "FR",
         "pronounciation": "Bahl-mahn",
         "designers": "Pierre Balmain,Olivier Rousteing",
         "site_url": "https://www.balmain.com/us",
@@ -84,6 +91,7 @@
         "brand_logo": "../assets/balenciaga_logo.jpg",
         "year_founded": 1919,
         "city_founded": "San-Sebastian, Spain",
+        "country": "ES",
         "pronounciation": "Bal-en-see-ah-ga",
         "designers": "Cristóbal Balenciaga, Oscar de la Renta, Michel Goma, Alexander Wang, Demna Gvasalia",
         "site_url": "https://www.balenciaga.com/us",
@@ -95,6 +103,7 @@
         "brand_logo": "../assets/louisv_logo.jpg",
         "year_founded": 1854,
         "city_founded": "Paris, France",
+        "country": "FR",
         "pronounciation": "Loo-ee Vwee-to(n)",
         "designers": "Louis Vuitton, Nicolas Ghesquiere, Virgil Abloh",
         "site_url": "https://www.louisvuitton.com/",
@@ -106,6 +115,7 @@
         "brand_logo": "../assets/ga_logo.jpg",
         "year_founded": 1975,
         "city_founded": "Milan, Italy",
+        "country": "IT",
         "pronounciation": "Jor-Jo Ar-man-ee",
         "designers": "Giorgio Armani",
         "site_url": "https://www.armani.com/us/armanicom",
@@ -117,6 +127,7 @@
         "brand_logo": "../assets/tomf_logo.jpg",
         "year_founded": 2005,
         "city_founded": "New York, US",
+        "country": "US",
         "pronounciation": "Tom Ford",
         "designers": "Tom Ford",
         "site_url": "https://www.tomford.com/",
@@ -128,6 +139,7 @@
         "brand_logo": "../assets/burberry_logo.jpg",
         "year_founded": 1856,
         "city_founded": "Basingstoke, UK",
+        "country": "UK",
         "pronounciation": "Bur-ber-ee",
         "designers": "Ricardo Tisci, Christopher Bailey, Thomas Burberry,",
         "site_url": "https://us.burberry.com/",
@@ -135,164 +147,167 @@
       },
       {
         "index": 12,
-        "name": "Comme Des Garcons",
-        "brand_logo": "../assets/commedg_logo.jpg",
-        "year_founded": 1973,
-        "city_founded": "Tokyo, Japan",
-        "pronounciation": "Kom di Gar-sonn",
-        "designers": "Rei Kawakubo",
-        "site_url": "http://www.comme-des-garcons.com/",
-        "bio": "Comme Des Garçons was founded in 1969, yet wasn’t established as a company until 1973. The brand quickly made a name for itself in Japan, where it was created by Rei Kawakubo, before spreading to many other regions of the world. Though the label is nearly 50 years old it still manages to be the most inventive brand of the 21st century, specializing in making unique, funky, radical fashion that fiercely challenges conventions and transcends gender stereotypes with completely original clothing."
-      },
-      {
-        "index": 13,
         "name": "Dior",
         "brand_logo": "../assets/dior_logo.png",
         "year_founded": 1946,
         "city_founded": "Paris, France",
+        "country": "FR",
         "pronounciation": "Dee-or",
         "designers": "Christian Dior, John Galliano, Raf Simons, Hedi Slimane",
         "site_url": "https://www.dior.com/en_us",
         "bio": "The brand was founded in 1948 by Christian Dior. Though the European luxury goods company is now chaired by the French businessman, Bernard Arnault, who is also the head of LVMH which is the worlds largest luxury group. Dior’s sophisticated, contemporary and confident style, sticks to a formal and minimal style. While Dior Homme has introduced a characteristic slim silhouette under the creative direction of Hedi Slimane, the brand continues to challenge convention."
       },
       {
-        "index": 14,
+        "index": 13,
         "name": "Ralph Lauren",
         "brand_logo": "../assets/ralphl_logo.jpg",
         "year_founded": 1967,
         "city_founded": "New York, US",
+        "country": "US",
         "pronounciation": "Ralf Law-ren",
         "designers": "Ralph Lauren,",
         "site_url": "https://www.ralphlauren.com/",
         "bio": "Ralph Lauren stands at the forefront of fashion, being a global leader in design and marketing since the fashion house was invented in 1967, while Ralph himself, is an icon in the industry. The brand provides apparel, accessories, and fragrance for men, women and children, and is super stylish. The label continues to be the leader in the latest trends and always provides the best runway looks."
       },
       {
-        "index": 15,
+        "index": 14,
         "name": "Valentino",
         "brand_logo": "../assets/valentino_logo.jpg",
         "year_founded": 1960,
         "city_founded": "Rome, Italy",
+        "country": "IT",
         "pronounciation": "Val-uhn-tee-no",
         "designers": "Valentino Clement Ludovico Garavani, Pierpaolo Piccioli",
         "site_url": "https://www.valentino.com/en-us",
         "bio": "The brand was founded in 1959 in Rome by the Italian fashion designer, Valentino Clemente Ludovico Garavani. Valentino is one of the original leaders of international fashion and continues to be today. The label makes shoes, bags, eyewear, scarves, ties, fragrances and clothes that are super edgy and most interesting in style."
       },
       {
-        "index": 16,
+        "index": 15,
         "name": "Tommy Hilfiger",
         "brand_logo": "../assets/tommyh_logo.jpg",
         "year_founded": 1985,
         "city_founded": "New York, US",
+        "country": "US",
         "pronounciation": "Tom-ee Hil-fih-guhr",
         "designers": "Tommy Hilfiger, Zendaya,",
         "site_url": "https://usa.tommy.com/en/",
         "bio": "TOMMY HILFIGER is one of the world’s leading designer lifestyle brands and is internationally recognized for celebrating the essence of classic American cool style, featuring preppy with a twist designs. The brand was acquired by PVH Corp in 2010."
       },
       {
-        "index": 17,
+        "index": 16,
         "name": "Lacoste",
         "brand_logo": "../assets/lacoste_logo.jpg",
         "year_founded": 1933,
         "city_founded": "Troyes, France",
+        "country": "FR",
         "pronounciation": "Lah-cost",
         "designers": "René Lacoste, Felipe Oliviera Baptista",
         "site_url": "https://www.lacoste.com/",
         "bio": "Founded by 1920’s tennis champion Rene Lacoste, one of the greatest preppy brands of all time emerged from a determination to improve sporting apparel which, at that time, was largely woven. He is credited with the invention of cotton pique, a sturdy knit fabric which to this day is still used in the company’s iconic polo shirts. Over time the Lacoste range has grown to include a strong offering of technical and outerwear apparel with punchy coloration and classic tennis whites."
       },
       {
-        "index": 18,
+        "index": 17,
         "name": "Hermes",
         "brand_logo": "../assets/hermes_logo.jpg",
         "year_founded": 1837,
         "city_founded": "Paris, France",
+        "country": "FR",
         "pronounciation": "Er-mez",
         "designers": "Lola Prusac, Jean-Paul Gaultier, Martin Margiela. Nadege Vanhee-Cybulski",
         "site_url": "https://www.hermes.com/us/en/",
         "bio": "Hermes sells leather goods, accessories, perfumes and ready-to-wear clothing that is quite traditional in style. Out of all of their products, their leather goods are their biggest contributor to the company’s revenues, followed by their ready-to-wear line. The brand also has many partner brands including, John Lobb (bootmaker), Puiforcat (silversmith), Saint-Louis (crystal manufacturer) and Shang Xia (contemporary fine living lifestyle brand)."
       },
       {
-        "index": 19,
+        "index": 18,
         "name": "Michael Kors",
         "brand_logo": "../assets/michaelk_logo.jpg",
         "year_founded": 1981,
         "city_founded": "New York, US",
+        "country": "US",
         "pronounciation": "Mai-cahl Cohrs",
         "designers": "Michael Kors",
         "site_url": "https://www.michaelkors.com/",
         "bio": "Michael Kors is a world-renowned, award-winning designer of luxury accessories and ready-to-wear. He has won numerous accolades within the fashion industry, been honored for his philanthropy. His namesake company, established in 1981, currently produces a range of products, specializing in handbags and men's and women's ready-to-wear. The brand is dedicated to a vision of style that is as sophisticated as it is indulgent, as iconic as it is modern."
       },
       {
-        "index": 20,
+        "index": 19,
         "name": "Oscar de la Renta",
         "brand_logo": "../assets/oscardlr_logo.jpg",
         "year_founded": 1965,
         "city_founded": "New York, US",
+        "country": "US",
         "pronounciation": "Os-car de la Ren-ta",
         "designers": "Oscar de la Renta",
         "site_url": "http://www.oscardelarenta.com/",
         "bio": "Oscar De la Renta began his own signature ready-to-wear label in 1965. The label was an immediate hit thanks to De la Renta’s use of colour, his vibrant prints and romantic rendering of Spanish and Caribbean silhouettes. The success of his line led to the launch of a perfume in 1977, as well as expansion into diffusion and bridal lines later in his career."
       },
       {
-        "index": 21,
+        "index": 20,
         "name": "Chanel",
         "brand_logo": "../assets/chanel_logo.jpg",
         "year_founded": 1910,
         "city_founded": "Paris, France",
+        "country": "FR",
         "pronounciation": "Shan-ell",
         "designers": "Coco Chanel, Karl Lagerfeld, Robert Goossens",
         "site_url": "https://www.chanel.com/us/",
         "bio": "Chanel specialises in haute couture, ready-to-wear, beauty, fragrance, and luxury accessories. Famed for the little black dress, No.5 perfume, tweed suits and the 2.55 bag, the label consistently ranks as the world's leading luxury brand. Alongside ready-to-wear, cruise, pre-fall and haute couture shows throughout the year, the brand also conceives Chanel’s métiers d’art shows designed to highlight the house's craftsmanship. Founded in 1910 by Gabrielle “Coco” Chanel, the French label is a privately held company owned by Alain and Gerard Wertheimer"
       },
       {
-        "index": 22,
+        "index": 21,
         "name": "Dolce and Gabbana",
         "brand_logo": "../assets/dg_logo.jpg",
         "year_founded": 1985,
         "city_founded": "Milan, Italy",
+        "country": "IT",
         "pronounciation": "Doll-chay and Gab-an-a",
         "designers": "Domenico Dolce and Stefano Gabbana",
         "site_url": "https://www.dolcegabbana.com/",
         "bio": "Originally inspired by eclectic, thrift shop bohemian style, Dolce & Gabbana's deeply colored, animal prints have been described as \"haute hippy dom\" taking inspiration in particular from Italy's prestigious film history. D & G trademarks include underwear-as-outerwear (such as corsets and bra fastenings), gangster boss pinstripe suits, and extravagantly printed coats"
       },
       {
-        "index": 23,
+        "index": 22,
         "name": "Vera Wang",
         "brand_logo": "../assets/veraw_logo.png",
         "year_founded": 1990,
         "city_founded": "New York, US",
+        "country": "US",
         "pronounciation": "Ver-a Wang",
         "designers": "Vera Wang",
         "site_url": "https://www.verawang.com/",
         "bio": "Vera Wang began a sweeping makeover of the bridal industry in 1990 and in 2000 her enthusiasm for couture fashion resulted in the launch of her highly acclaimed ready-to-wear collection. Known for her nonchalant approach to style and luxury, Vera Wang’s ready-to-wear collections resonate with her signature layering, intricate draping and exquisite attention to detail."
       },
       {
-        "index": 24,
+        "index": 23,
         "name": "Salvatore Ferragamo",
         "brand_logo": "../assets/salf_logo.jpg",
         "year_founded": 1927,
         "city_founded": "Florence, Italy",
+        "country": "IT",
         "pronounciation": "Sal-va-tor-ay Ferr-a-garm-o",
         "designers": "Salvatore Ferragamo, Paul Andrew",
         "site_url": "https://www.ferragamo.com/shop/us/en",
         "bio": "Salvatore Ferragamo’s dream was always to transform his brand into a great fashion house, so when he passed in 1960, he left it as his legacy, hoping his family would fulfill his goal. Eventually succeeding, Salvatore Ferragamo is now one of the biggest and most well-known shoe labels, made from high-quality leathers and other unique materials."
       },
       {
-        "index": 25,
+        "index": 24,
         "name": "Stella McCartney",
         "brand_logo": "../assets/stellam_logo.jpg",
         "year_founded": 2001,
         "city_founded": "London, UK",
+        "country": "UK",
         "pronounciation": "Stel-a Mik-cart-nee",
         "designers": "Stella McCartney",
         "site_url": "https://www.stellamccartney.com/",
         "bio": "Stella McCartney launched her brand in 2001, owning a 50% partnership with the Kering group. The label was one of the first fashion brands to join the sustainability movement, choosing to follow in the footsteps of her mother, Linda McCartney, an animal rights activist. Due to this, the brand uses non-violent materials to create their ready-to-wear clothing, accessories, lingerie, and eyewear, strongly believing in sustaining the planet and taking care of animals. Stella McCartney menswear has a unique urban look and is known for its soft tailored shapes and sporty feel."
       },
       {
-        "index": 26,
+        "index": 25,
         "name": "Alexander McQueen",
         "brand_logo": "../assets/alexm_logo.jpg",
         "year_founded": 1992,
         "city_founded": "London, UK",
+        "country": "UK",
         "pronounciation": "Al-eks-an-dehr Mik-kween",
         "designers": "Alexander McQueen, Sarah Burton",
         "site_url": "https://www.alexandermcqueen.com/us",
@@ -300,11 +315,12 @@
       },
       {
 
-        "index": 27,
+        "index": 26,
         "name": "Alexander Wang",
         "brand_logo": "../assets/alexw_logo.jpg",
         "year_founded": 2007,
         "city_founded": "New York, US",
+        "country": "US",
         "pronounciation": "Al-eks-an-dehr Wang",
         "designers": "Alexander Wang",
         "site_url": "https://www.alexanderwang.com/us-en/",
@@ -506,22 +522,6 @@
         },
         {
           "index": 12,
-          "brand": "Comme Des Garcons",
-          "year": 2019,
-          "season": "RTW Fall",
-          "cover_photo": "cdg_f_2019_c.jpg",
-          "photo_1": "cdg_f_2019_1.jpg",
-          "photo_2": "cdg_f_2019_2.jpg",
-          "photo_3": "cdg_f_2019_3.jpg",
-          "photo_4": "cdg_f_2019_4.jpg",
-          "photo_5": "cdg_f_2019_5.jpg",
-          "photo_6": "cdg_f_2019_6.jpg",
-          "photo_7": "cdg_f_2019_7.jpg",
-          "photo_8": "cdg_f_2019_8.jpg",
-          "photo_9": "cdg_f_2019_9.jpg"
-        },
-        {
-          "index": 13,
           "brand": "Dior",
           "year": 2019,
           "season": "RTW Fall",
@@ -537,7 +537,7 @@
           "photo_9": "dior_f_2019_9.jpg"
         },
         {
-          "index": 14,
+          "index": 13,
           "brand": "Ralph Lauren",
           "year": 2019,
           "season": "RTW Fall",
@@ -553,7 +553,7 @@
           "photo_9": "rl_f_2019_9.jpg"
         },
         {
-          "index": 15,
+          "index": 14,
           "brand": "Valentino",
           "year": 2019,
           "season": "RTW Fall",
@@ -569,7 +569,7 @@
           "photo_9": "val_f_2019_9.jpg"
         },
         {
-          "index": 16,
+          "index": 15,
           "brand": "Tommy Hilfiger",
           "year": 2019,
           "season": "RTW Fall",
@@ -585,7 +585,7 @@
           "photo_9": "th_f_2019_9.jpg"
         },
         {
-          "index": 17,
+          "index": 16,
           "brand": "Lacoste",
           "year": 2019,
           "season": "RTW Fall",
@@ -601,7 +601,7 @@
           "photo_9": "lacoste_f_2019_9.jpg"
         },
         {
-          "index": 18,
+          "index": 17,
           "brand": "Hermes",
           "year": 2019,
           "season": "RTW Fall",
@@ -617,7 +617,7 @@
           "photo_9": "hermes_f_2019_9.jpg"
         },
         {
-          "index": 19,
+          "index": 18,
           "brand": "Michael Kors",
           "year": 2019,
           "season": "RTW Fall",
@@ -633,7 +633,7 @@
           "photo_9": "mk_f_2019_9.jpg"
         },
         {
-          "index": 20,
+          "index": 19,
           "brand": "Oscar de la Renta",
           "year": 2019,
           "season": "RTW Fall",
@@ -649,7 +649,7 @@
           "photo_9": "odlr_f_2019_9.jpg"
         },
         {
-          "index": 21,
+          "index": 20,
           "brand": "Chanel",
           "year": 2019,
           "season": "RTW Fall",
@@ -665,7 +665,7 @@
           "photo_9": "chanel_f_2019_9.jpg"
         },
         {
-          "index": 22,
+          "index": 21,
           "brand": "Dolce and Gabbana",
           "year": 2019,
           "season": "RTW Fall",
@@ -681,7 +681,7 @@
           "photo_9": "dg_f_2019_9.jpg"
         },
         {
-          "index": 23,
+          "index": 22,
           "brand": "Vera Wang",
           "year": 2019,
           "season": "RTW Fall",
@@ -697,7 +697,7 @@
           "photo_9": "vw_f_2019_9.jpg"
         },
         {
-          "index": 24,
+          "index": 23,
           "brand": "Salvatore Ferragamo",
           "year": 2019,
           "season": "RTW Fall",
@@ -713,7 +713,7 @@
           "photo_9": "salf_f_2019_9.jpg"
         },
         {
-          "index": 25,
+          "index": 24,
           "brand": "Stella McCartney",
           "year": 2019,
           "season": "RTW Fall",
@@ -729,7 +729,7 @@
           "photo_9": "sm_f_2019_9.jpg"
         },
         {
-          "index": 26,
+          "index": 25,
           "brand": "Alexander McQueen",
           "year": 2019,
           "season": "RTW Fall",
@@ -745,7 +745,7 @@
           "photo_9": "am_f_2019_9.jpg"
         },
         {
-          "index": 27,
+          "index": 26,
           "brand": "Alexander Wang",
           "year": 2019,
           "season": "RTW Fall",
@@ -761,7 +761,7 @@
           "photo_9": "aw_f_2019_9.jpg"
         },
         {
-          "index": 28,
+          "index": 27,
           "brand": "Gucci",
           "year": 2019,
           "season": "RTW Spring",
@@ -777,7 +777,7 @@
           "photo_9": "gucci_s_2019_9.jpg"
         },
         {
-          "index": 29,
+          "index": 28,
           "brand": "Prada",
           "year": 2019,
           "season": "RTW Spring",
@@ -793,7 +793,7 @@
           "photo_9": "prada_s_2019_9.jpg"
         },
         {
-          "index": 30,
+          "index": 29,
           "brand": "Fendi",
           "year": 2019,
           "season": "RTW Spring",
@@ -809,7 +809,7 @@
           "photo_9": "fendi_s_2019_9.jpg"
         },
         {
-          "index": 31,
+          "index": 30,
           "brand": "Versace",
           "year": 2019,
           "season": "RTW Spring",
@@ -825,7 +825,7 @@
           "photo_9": "versace_s_2019_9.jpg"
         },
         {
-          "index": 32,
+          "index": 31,
           "brand": "Saint Laurent",
           "year": 2019,
           "season": "RTW Spring",
@@ -841,7 +841,7 @@
           "photo_9": "ysl_s_2019_9.jpg"
         },
         {
-          "index": 33,
+          "index": 32,
           "brand": "Givenchy",
           "year": 2019,
           "season": "RTW Spring",
@@ -857,7 +857,7 @@
           "photo_9": "givenchy_s_2019_9.jpg"
         },
         {
-          "index": 34,
+          "index": 33,
           "brand": "Balmain",
           "year": 2019,
           "season": "RTW Spring",
@@ -873,7 +873,7 @@
           "photo_9": "balmain_s_2019_9.jpg"
         },
         {
-          "index": 35,
+          "index": 34,
           "brand": "Balenciaga",
           "year": 2019,
           "season": "RTW Spring",
@@ -889,7 +889,7 @@
           "photo_9": "balenciaga_s_2019_9.jpg"
         },
         {
-          "index": 36,
+          "index": 35,
           "brand": "Louis Vuitton",
           "year": 2019,
           "season": "RTW Spring",
@@ -905,7 +905,7 @@
           "photo_9": "lv_s_2019_9.jpg"
         },
         {
-          "index": 37,
+          "index": 36,
           "brand": "Giorgio Armani",
           "year": 2019,
           "season": "RTW Spring",
@@ -921,7 +921,7 @@
           "photo_9": "ga_s_2019_9.jpg"
         },
         {
-          "index": 38,
+          "index": 37,
           "brand": "Tom Ford",
           "year": 2019,
           "season": "RTW Spring",
@@ -937,7 +937,7 @@
           "photo_9": "tf_s_2019_9.jpg"
         },
         {
-          "index": 39,
+          "index": 38,
           "brand": "Burberry",
           "year": 2019,
           "season": "RTW Spring",
@@ -953,23 +953,7 @@
           "photo_9": "bur_s_2019_9.jpg"
         },
         {
-          "index": 40,
-          "brand": "Comme Des Garcons",
-          "year": 2019,
-          "season": "RTW Spring",
-          "cover_photo": "cdg_s_2019_c.jpg",
-          "photo_1": "cdg_s_2019_1.jpg",
-          "photo_2": "cdg_s_2019_2.jpg",
-          "photo_3": "cdg_s_2019_3.jpg",
-          "photo_4": "cdg_s_2019_4.jpg",
-          "photo_5": "cdg_s_2019_5.jpg",
-          "photo_6": "cdg_s_2019_6.jpg",
-          "photo_7": "cdg_s_2019_7.jpg",
-          "photo_8": "cdg_s_2019_8.jpg",
-          "photo_9": "cdg_s_2019_9.jpg"
-        },
-        {
-          "index": 41,
+          "index": 39,
           "brand": "Dior",
           "year": 2019,
           "season": "RTW Spring",
@@ -985,7 +969,7 @@
           "photo_9": "dior_s_2019_9.jpg"
         },
         {
-          "index": 42,
+          "index": 40,
           "brand": "Ralph Lauren",
           "year": 2019,
           "season": "RTW Spring",
@@ -1001,7 +985,7 @@
           "photo_9": "rl_s_2019_9.jpg"
         },
         {
-          "index": 43,
+          "index": 41,
           "brand": "Valentino",
           "year": 2019,
           "season": "RTW Spring",
@@ -1017,7 +1001,7 @@
           "photo_9": "val_s_2019_9.jpg"
         },
         {
-          "index": 44,
+          "index": 42,
           "brand": "Tommy Hilfiger",
           "year": 2019,
           "season": "RTW Spring",
@@ -1033,7 +1017,7 @@
           "photo_9": "th_s_2019_9.jpg"
         },
         {
-          "index": 45,
+          "index": 43,
           "brand": "Lacoste",
           "year": 2019,
           "season": "RTW Spring",
@@ -1049,7 +1033,7 @@
           "photo_9": "lacoste_s_2019_9.jpg"
         },
         {
-          "index": 46,
+          "index": 44,
           "brand": "Hermes",
           "year": 2019,
           "season": "RTW Spring",
@@ -1065,7 +1049,7 @@
           "photo_9": "hermes_s_2019_9.jpg"
         },
         {
-          "index": 47,
+          "index": 45, 
           "brand": "Michael Kors",
           "year": 2019,
           "season": "RTW Spring",
@@ -1081,7 +1065,7 @@
           "photo_9": "mk_s_2019_9.jpg"
         },
         {
-          "index": 48,
+          "index": 46,
           "brand": "Oscar de la Renta",
           "year": 2019,
           "season": "RTW Spring",
@@ -1097,7 +1081,7 @@
           "photo_9": "odlr_s_2019_9.jpg"
         },
         {
-          "index": 49,
+          "index": 47,
           "brand": "Chanel",
           "year": 2019,
           "season": "RTW Spring",
@@ -1113,7 +1097,7 @@
           "photo_9": "chanel_s_2019_9.jpg"
         },
         {
-          "index": 50,
+          "index": 48,
           "brand": "Dolce and Gabbana",
           "year": 2019,
           "season": "RTW Spring",
@@ -1129,7 +1113,7 @@
           "photo_9": "dg_s_2019_9.jpg"
         },
         {
-          "index": 51,
+          "index": 49,
           "brand": "Vera Wang",
           "year": 2019,
           "season": "RTW Spring",
@@ -1145,7 +1129,7 @@
           "photo_9": "vw_s_2019_9.jpg"
         },
         {
-          "index": 52,
+          "index": 50,
           "brand": "Salvatore Ferragamo",
           "year": 2019,
           "season": "RTW Spring",
@@ -1161,7 +1145,7 @@
           "photo_9": "salf_s_2019_9.jpg"
         },
         {
-          "index": 53,
+          "index": 51,
           "brand": "Stella McCartney",
           "year": 2019,
           "season": "RTW Spring",
@@ -1177,7 +1161,7 @@
           "photo_9": "sm_s_2019_9.jpg"
         },
         {
-          "index": 54,
+          "index": 52,
           "brand": "Alexander McQueen",
           "year": 2019,
           "season": "RTW Spring",
@@ -1193,7 +1177,7 @@
           "photo_9": "am_s_2019_9.jpg"
         },
         {
-          "index": 55,
+          "index": 53,
           "brand": "Alexander Wang",
           "year": 2019,
           "season": "RTW Spring",

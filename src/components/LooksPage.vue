@@ -1,7 +1,7 @@
 <template>
     <div id="listingPage">
     
-    <a class="btn btn-light filter-btn" data-toggle="collapse" href="#filters" collapsed aria-expanded="false">
+    <a class="btn filter-btn" data-toggle="collapse" href="#filters" collapsed aria-expanded="false">
         Filter content
     </a>
 
@@ -9,18 +9,17 @@
         <div>
         <form>
             <div class="form-group">
-                <select class="form-control" id="selecter">
+                <select @change="sortBy(shows, $event)" class="form-control" id="selecter">
                     <option value="all" selected>Sort By...</option>
                     <option value ="AZ">Brand Name A-Z</option>
-                    <option value ="ZA">Brand Name Z-A</option>
+                    <option @click="sortBy(shows, 'ZA')" value ="ZA">Brand Name Z-A</option>
                 </select>
-                <p>Filter shows by season:</p>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="SP">
+                <div @change="filterForSeason()" class="form-check form-check-inline">
+                    <input checked class="form-check-input" type="checkbox" id="inlineCheckbox1" ref="SPcheck">
                     <label class="form-check-label" for="inlineCheckbox1">Spring 2019 Ready to Wear</label>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="FL">
+                <div @change="filterForSeason()" class="form-check form-check-inline">
+                    <input checked class="form-check-input" type="checkbox" id="inlineCheckbox2" ref="FLcheck">
                     <label class="form-check-label" for="inlineCheckbox2">Fall 2019 Ready to Wear</label>
                 </div>
             </div>
@@ -30,7 +29,7 @@
 
     <div id="content">
         <ul class="list-unstyled">
-            <li v-for="show in shows" v-bind:key="show.index">
+            <li v-for="show in shows" v-bind:key="show.index" v-bind:ref="show.season">
                 <div class="d-flex align-items-center">
                 <img v-bind:src="`/assets/`+show.cover_photo"> 
                 <span>
@@ -38,7 +37,7 @@
                 <p>{{show.season}}, {{show.year}}</p>
                 </span>
                 </div>
-                <button @click="$emit('see-details', ['MoreDetails', looks.index])">See Details <i class="fas fa-arrow-right"></i></button>
+                <button @click="$emit('see-details', ['Gallery', show.index])">See Details <i class="fas fa-arrow-right"></i></button>
             </li>
         </ul>
     </div>
@@ -77,6 +76,34 @@ export default {
             return json.shows.map((item) => {
             return item.season;
             })
+        }
+    },
+    methods: {
+        sortBy: function(array, value) {
+            let newVal = value.target.value
+            let newArr = array.sort((a,b) => (a.brand > b.brand) ? 1 : ((b.brand > a.brand) ? -1 : 0))
+            if (newVal == "AZ") {
+                return newArr
+            } else if (newVal =="ZA") {
+               return newArr.reverse()
+            }
+        },
+        filterForSeason: function() {
+            if (this.$refs["FLcheck"].checked == false) {
+                for (let i=0; i<this.$refs["RTW Fall"].length; i++)
+                    this.$refs["RTW Fall"][i].hidden = true
+            } else {
+                for (let i=0; i<this.$refs["RTW Fall"].length; i++)
+                    this.$refs["RTW Fall"][i].hidden = false
+            }
+            if (this.$refs["SPcheck"].checked == false) {
+                for (let i=0; i<this.$refs["RTW Spring"].length; i++)
+                    this.$refs["RTW Spring"][i].hidden = true
+            } else {
+                for (let i=0; i<this.$refs["RTW Spring"].length; i++)
+                    this.$refs["RTW Spring"][i].hidden = false
+            }
+
         }
     }
 }
@@ -134,6 +161,8 @@ button i {
     width: 90%;
     margin-left: 5%;
     height: 40px;
+    background-color: rgb(253, 226, 226);
+    color: #141414;
 }
 
 #content {
@@ -148,7 +177,7 @@ button i {
 #filters {
     width: 90%;
     margin-left: 5%;
-    background-color: rgb(216, 222, 230);
+    background-color:  rgb(253, 226, 226);
 }
 
 #selecter {

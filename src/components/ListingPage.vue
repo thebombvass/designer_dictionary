@@ -1,7 +1,7 @@
 <template>
     <div id="listingPage">
     
-    <a class="btn btn-light filter-btn" data-toggle="collapse" href="#filters" collapsed aria-expanded="false">
+    <a id="filterbtn" class="btn filter-btn" data-toggle="collapse" href="#filters" collapsed aria-expanded="false">
         Filter content
     </a>
 
@@ -9,29 +9,32 @@
         <div>
         <form>
             <div class="form-group">
-                <select class="form-control" id="selecter">
+                <select @change="sortBy(brands, $event)" class="form-control" id="selecter">
                     <option value="all" selected>Sort By...</option>
                     <option value ="AZ">Brand Name A-Z</option>
                     <option value ="ZA">Brand Name Z-A</option>
                     <option value ="old">Year Founded (oldest)</option>
                     <option value ="new">Year Founded (newest)</option>
                 </select>
-                <p>Filter brands by country they were founded in:</p>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="IT">
+                <div @change="filterForCountry()" class="form-check form-check-inline">
+                    <input checked class="form-check-input" type="checkbox" id="inlineCheckbox1" ref="ITcheck" value="IT">
                     <label class="form-check-label" for="inlineCheckbox1">Italian</label>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="FR">
+                <div @change="filterForCountry()" class="form-check form-check-inline">
+                    <input checked class="form-check-input" type="checkbox" id="inlineCheckbox2" ref="FRcheck" value="FR">
                     <label class="form-check-label" for="inlineCheckbox2">French</label>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="US">
+                <div @change="filterForCountry()" class="form-check form-check-inline">
+                    <input checked class="form-check-input" type="checkbox" id="inlineCheckbox3" ref="UScheck" value="US">
                     <label class="form-check-label" for="inlineCheckbox3">American</label>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="UK">
+                <div @change="filterForCountry()" class="form-check form-check-inline">
+                    <input checked class="form-check-input" type="checkbox" id="inlineCheckbox3" ref="UKcheck" value="UK">
                     <label class="form-check-label" for="inlineCheckbox3">English</label>
+                </div>
+                <div @change="filterForCountry()" class="form-check form-check-inline">
+                    <input checked class="form-check-input" type="checkbox" id="inlineCheckbox3" ref="EScheck" value="ES">
+                    <label class="form-check-label" for="inlineCheckbox3">Spanish</label>
                 </div>
             </div>
         </form>
@@ -40,7 +43,7 @@
 
     <div id="content">
         <ul class="list-unstyled">
-            <li v-for="brand in brands" v-bind:key="brand.index">
+            <li v-for="brand in brands" v-bind:key="brand.index" v-bind:ref="brand.country">
                 <img v-bind:src="brand.brand_logo"> 
                 <span>{{brand.name}}</span>
                 <button @click="$emit('see-details', ['MoreDetails', brand.index])">See Details <i class="fas fa-arrow-right"></i></button>
@@ -65,7 +68,6 @@ export default {
     data() {
         return {
             brands: json.brands,
-            viaJS: '/assets/prada_logo.jpg'
         }
     },
     computed: {
@@ -84,6 +86,66 @@ export default {
             return '/assets/' + item.brand_logo
             })
         },
+    },
+    methods: {
+        sortBy: function(array, value) {
+            let newVal = value.target.value
+            console.log(newVal)
+            if (newVal == "AZ" || newVal == "ZA") {
+                console.log('brand')
+                let newArr = array.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
+                if (newVal == "AZ") {
+                console.log(newArr)
+                } else if (newVal =="ZA") {
+                console.log(newArr.reverse())
+            }
+            } else {
+                console.log('year')
+                let newArr = array.sort((a,b) => (a.year_founded > b.year_founded) ? 1 : ((b.year_founded > a.year_founded) ? -1 : 0))
+                if (newVal == "old") {
+                    console.log(newArr)
+                } else if (newVal == "new") {
+                    console.log(newArr.reverse())
+                }
+            }
+        },
+        filterForCountry: function() {
+            if (this.$refs["ITcheck"].checked == false) {
+                for (let i=0; i<this.$refs["IT"].length; i++)
+                    this.$refs["IT"][i].hidden = true
+            } else {
+                for (let i=0; i<this.$refs["IT"].length; i++)
+                    this.$refs["IT"][i].hidden = false
+            }
+            if (this.$refs["EScheck"].checked == false) {
+                for (let i=0; i<this.$refs["ES"].length; i++)
+                    this.$refs["ES"][i].hidden = true
+            } else {
+                for (let i=0; i<this.$refs["ES"].length; i++)
+                    this.$refs["ES"][i].hidden = false
+            }
+            if (this.$refs["FRcheck"].checked == false) {
+                for (let i=0; i<this.$refs["FR"].length; i++)
+                    this.$refs["FR"][i].hidden = true
+            } else {
+                for (let i=0; i<this.$refs["FR"].length; i++)
+                    this.$refs["FR"][i].hidden = false
+            }
+            if (this.$refs["UScheck"].checked == false) {
+                for (let i=0; i<this.$refs["US"].length; i++)
+                    this.$refs["US"][i].hidden = true
+            } else {
+                for (let i=0; i<this.$refs["US"].length; i++)
+                    this.$refs["US"][i].hidden = false
+            }
+            if (this.$refs["UKcheck"].checked == false) {
+                for (let i=0; i<this.$refs["UK"].length; i++)
+                    this.$refs["UK"][i].hidden = true
+            } else {
+                for (let i=0; i<this.$refs["UK"].length; i++)
+                    this.$refs["UK"][i].hidden = false
+            }
+        }
     }
 }
 </script>
@@ -133,6 +195,8 @@ button i {
     width: 90%;
     margin-left: 5%;
     height: 40px;
+    background-color: rgb(253, 226, 226);
+    color: #141414;
 }
 
 #content {
@@ -147,7 +211,7 @@ button i {
 #filters {
     width: 90%;
     margin-left: 5%;
-    background-color: rgb(216, 222, 230);
+    background-color: rgb(253, 226, 226);
 }
 
 #selecter {

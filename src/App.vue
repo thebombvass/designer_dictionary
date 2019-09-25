@@ -1,15 +1,12 @@
 <template>
   <div id="app">
-  <header>
+  <header ref="header">
     <div class="navbar-expand-sm">
     <nav class="navbar navbar-expand-lg fixed top">
       <a class="navbar-brand" href="#">Designer Dictionary</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
-
-      <!-- add when click brands or shows it also collapses -->
-
       <div class="collapse navbar-collapse container-fullwidth" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -19,21 +16,16 @@
             <a @click="swapComponent(['LooksPage', selectedBrand])" class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" href="#">Shows</a>
           </li>
         </ul>
-        <!-- <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form> -->
       </div>
     </nav>
     </div>
   </header>
-      <component
-      v-on:see-details.capture="swapComponent"
-      v-bind:selectedBrand='selectedBrand'
-      :is="currentComponent"
-    ></component>
-  <!-- <listing-page></listing-page> -->
-  <!-- <more-details></more-details> -->
+
+    <component
+    v-on:see-details.capture="swapComponent"
+    v-bind:selectedBrand='selectedBrand'
+    :is="currentComponent"
+  ></component>
 
   </div>
 </template>
@@ -43,6 +35,7 @@ import LandingHome from './components/LandingHome.vue'
 import ListingPage from './components/ListingPage.vue'
 import MoreDetails from './components/MoreDetails.vue'
 import LooksPage from './components/LooksPage.vue'
+import Gallery from './components/Gallery'
 
 export default {
   name: 'app',
@@ -51,21 +44,33 @@ export default {
     ListingPage,
     MoreDetails,
     LooksPage,
+    Gallery
   },
   data() {
     return {
-      currentComponent: 'ListingPage',
-      selectedBrand: ''
+      currentComponent: 'LandingHome',
+      selectedBrand: '',
     }
   },  methods: {
     swapComponent: function(array) {
       this.currentComponent = array[0];
       this.selectedBrand =  array[1];
-      console.log(this.selectedBrand)
+      this.theStart()
     },
     seeDetails: function(brand, comp) {
       currentComponent(comp)
     },
+    theStart: function() {
+      if (this.currentComponent == "LandingHome") {
+        this.$refs["header"].hidden = true
+        console.log("true")
+      } else {
+        this.$refs["header"].hidden = false
+        console.log("false")
+      }
+    }
+  }, mounted() {
+    this.theStart()
   }
 }
 </script>
@@ -80,11 +85,13 @@ Sinopia - #EA410E;
 */
 
 header {
-  position: sticky; /*fix */
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 button:focus {
-  outline: 0;
+  outline: 0;  /* FIX */
 }
 
 nav {
@@ -97,6 +104,7 @@ nav {
 }
 .navbar-collapse {
     background-color: rgb(253, 226, 226);
+    font-size: 18px;
     width: 100%;
   } 
 
@@ -114,12 +122,17 @@ nav {
   margin: 4%;
 }
 
+.navbar-brand {
+  font-size: 25px;
+  font-style: italic
+}
+
 .fa-bars{
   color: #141414;
 }
 
 #app {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #navbarSupportedContent a {

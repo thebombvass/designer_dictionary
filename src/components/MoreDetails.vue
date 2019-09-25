@@ -1,20 +1,20 @@
 <template>
     <div id="moreDetails">
-        <div class="container-fluid d-flex align-items-center flex-column">
-                <img v-bind:src="brand.brand_logo">
-                <a v-bind:href="brand.site_url">Shop {{brand.name}}</a>
-                <h5 class="align-self-start">Key Info:</h5>
-                <div class="info container-fluid">
-                    <b>Founded:</b> {{brand.year_founded}} in {{brand.city_founded}}<br>
-                    <b>Pronounciation: </b><i>{{brand.pronounciation}}</i><br>
-                    <b>Famous Designers:</b> {{brand.designers}}<br>
+            <div class="container-fluid d-flex align-items-center flex-column">
+                    <img v-bind:src="brand.brand_logo">
+                    <a v-bind:href="brand.site_url">Shop {{brand.name}}</a>
+                    <h5 class="align-self-start">Key Info:</h5>
+                    <div class="info container-fluid">
+                        <b>Founded:</b> {{brand.year_founded}} in {{brand.city_founded}}<br>
+                        <b>Pronounciation: </b><i>{{brand.pronounciation}}</i><br>
+                        <b>Famous Designers:</b> {{brand.designers}}<br>
+                    </div>
+                <div>
+                <h5>Bio:</h5>
+                <p>{{bioPtOne}}<span ref="dots">...</span><span ref="more" hidden>{{bioPtTwo}}</span></p>
+                <button id="rmBtn" ref="rmBtn" @click="readMore">Read More</button>
                 </div>
-            <div>
-            <h5>Bio:</h5>
-            <p>{{bioPtOne}}<span ref="dots">...</span><span ref="more" hidden>{{bioPtTwo}}</span></p>
-            <button id="rmBtn" ref="rmBtn" @click="readMore">Read More</button>
             </div>
-         </div>
     </div>
 </template>
 
@@ -30,10 +30,13 @@ export default {
     },
     data () {
         return {
-            brand: json.brands[this.selectedBrand]
         }
     }, 
     computed: {
+        brand() {
+            json.brands.sort((a,b) => (a.index > b.index) ? 1 : ((b.index > a.index) ? -1 : 0))
+            return json.brands[this.selectedBrand]
+        },
         bioPtOne() { 
             return this.brand.bio.slice(0,90)
         },
@@ -43,7 +46,6 @@ export default {
     },
     methods: {
         readMore() {
-            console.log("clicked")
             if (this.$refs["more"].hidden) {
                 this.$refs["more"].hidden = false
                 this.$refs["dots"].hidden = true
