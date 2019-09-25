@@ -1,4 +1,5 @@
 <template>
+    <div id="landscape-orient">
     <div id="landingHome">
         <div>
             <p> Designer Dictionary </p>
@@ -6,6 +7,7 @@
                 <button @click="$emit('see-details', ['ListingPage',''])" class="btn">Get Started</button>
             </div>
          </div>
+    </div>
     </div>
 </template>
 
@@ -106,6 +108,34 @@ p {
     text-align: center;
     padding-top: 25px;
 }
+}
+
+@media only screen and (min-height: 300px) and (max-height: 450px) {
+    #landingHome {
+    background-image: url(/assets/sketch_border.png);
+    background-size: 260px 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 380px;
+    top: 0;
+    }
+
+    #landscape-orient {
+        background-image: -webkit-radial-gradient(circle, white 50%, rgb(133, 131, 131) 70%, rgb(14, 14, 14) 80%);
+    }
+
+    #btn-container {
+        height: 290px;
+    }
+
+    p {
+        font-size: 25px;
+        font-style: italic;
+        color: #141414;
+        text-shadow: 2px 2px rgb(255, 202, 214);
+        text-align: center;
+        padding-top: 15px;
+    }
 }
 
 button {

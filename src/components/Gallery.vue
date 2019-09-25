@@ -1,6 +1,6 @@
 <template>
     <div id="gallery">
-            <div class="container-fluid d-flex align-items-center flex-column">
+            <div class="container-fluid container-gallery">
 
                 <!--Carousel Wrapper-->
                     <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
@@ -147,6 +147,7 @@ export default {
     margin-top: 10px;
 }
 
+
 @media only screen and (min-height: 800px) and (max-height: 900px) {
    #gallery {
     background-color: #141414;
@@ -158,6 +159,11 @@ export default {
     .info {
         margin-top: 30px;
     }
+    .container-gallery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
 }
 
 @media only screen and (min-height: 500px) and (max-height: 600px) {
@@ -167,6 +173,30 @@ export default {
     .carousel-item {
         height: 420px;
     }
+    .container-gallery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
 }
+
+@media only screen and (min-height: 300px) and (max-height: 450px) {
+    .container-gallery {
+        display: flex;
+    }
+    #carousel-example-2 {
+        height: 270px;
+        width: 200px;
+        margin-left: 80px;
+    }
+    .carousel-item {
+        height: 270px;
+        width: 200px;
+    }
+    .info {
+        align-self: center;
+    }
+}
+
 
 </style>

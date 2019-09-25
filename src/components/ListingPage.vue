@@ -160,29 +160,60 @@ form {
     padding: 10px;
 }
 
-li {
-    margin: 15px;
-    margin-bottom: 20px;
-    background-color: white;
+@media only screen and (min-height: 300px) and (max-height: 450px) {
+    li {
+        margin: 15px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+
+    li img {
+        width: 15%;
+        margin: 5px;
+    }
+
+    li span {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+    li button {
+    border: 2px solid rgb(255, 202, 214);
+    border-bottom: 2px solid rgb(216, 63, 63);
+    background-color: rgb(255, 202, 214);
+    height: 50px;
+    position: absolute;
+    right: 25px;
+    margin-top: 5%;
+    }
 }
 
-li img {
-    width: 25%;
-    margin: 5px;
-}
+@media only screen and (min-height: 500px) and (max-height: 900px) {
+    li {
+        margin: 15px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
 
-li span {
-    font-size: 20px;
-    margin-left: 5px;
-}
+    li img {
+        width: 25%;
+        margin: 5px;
+    }
 
-li button {
+    li span {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    li button {
     border: 2px solid rgb(255, 202, 214);
     border-bottom: 2px solid rgb(216, 63, 63);
     background-color: rgb(255, 202, 214);
     position: absolute;
     right: 25px;
     margin-top: 15%;
+    }
+
 }
 
 button i {
