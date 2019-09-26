@@ -20,7 +20,7 @@ export default {
 <style scoped>
 @media only screen and (min-height: 500px) and (max-height: 600px) {
     #landingHome {
-    background-image: url(/assets/sketch.png);
+    background-image: url(https://i.imgur.com/hqda4cw.png);
     background-size: 360px 550px;
     background-color: #141414;
     background-position: center;
@@ -43,7 +43,7 @@ p {
 
 @media only screen and (min-height: 600px) and (max-height: 700px) {
     #landingHome {
-    background-image: url(/assets/sketch.png);
+    background-image: url(https://i.imgur.com/hqda4cw.png);
     background-color: #141414;
     background-repeat: repeat-y;
     background-position: center;
@@ -66,7 +66,7 @@ p {
 
 @media only screen and (min-height:700px) and (max-height: 800px) {
     #landingHome {
-    background-image: url(/assets/sketch.png);
+    background-image: url(https://i.imgur.com/hqda4cw.png);
     background-color: #141414;
     background-repeat: no-repeat;
     background-position: center;
@@ -89,7 +89,7 @@ p {
 
 @media only screen and (min-height:800px) and (max-height: 900px) {
     #landingHome {
-    background-image: url(/assets/sketch.png);
+    background-image: url(https://i.imgur.com/hqda4cw.png);
     background-color: #141414;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +112,7 @@ p {
 
 @media only screen and (min-height: 300px) and (max-height: 450px) {
     #landingHome {
-    background-image: url(/assets/sketch_border.png);
+    background-image: url(https://i.imgur.com/EB01bjD.png);
     background-size: 260px 300px;
     background-position: center;
     background-repeat: no-repeat;

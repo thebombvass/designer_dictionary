@@ -121,16 +121,14 @@ export default {
     props: ['selectedBrand'],
     components: {
         LooksCarousel,
-    },
-    data () {
-        return {
-            show: json.shows[this.selectedBrand],
-        }
     }, 
     computed: {
+        show() {
+            console.log(this.selectedBrand)
+            json.shows.sort((a,b) => (a.index > b.index) ? 1 : ((b.index > a.index) ? -1 : 0))
+            return json.shows[this.selectedBrand]
+        }
     },
-    methods: {
-    }
 }
 </script>
 

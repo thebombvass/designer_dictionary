@@ -31,10 +31,6 @@ export default {
     components: {
         LooksCarousel,
     },
-    data () {
-        return {
-        }
-    }, 
     computed: {
         brand() {
             json.brands.sort((a,b) => (a.index > b.index) ? 1 : ((b.index > a.index) ? -1 : 0))

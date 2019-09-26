@@ -63,10 +63,8 @@ export default {
     theStart: function() {
       if (this.currentComponent == "LandingHome") {
         this.$refs["header"].hidden = true
-        console.log("true")
       } else {
         this.$refs["header"].hidden = false
-        console.log("false")
       }
     }
   }, mounted() {

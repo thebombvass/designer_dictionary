@@ -112,7 +112,7 @@
       {
         "index": 9,
         "name": "Giorgio Armani",
-        "brand_logo": ".https://i.imgur.com/IfBhoD7.jpg",
+        "brand_logo": "https://i.imgur.com/IfBhoD7.jpg",
         "year_founded": 1975,
         "city_founded": "Milan, Italy",
         "country": "IT",
@@ -681,6 +681,7 @@
           "photo_9": "https://i.imgur.com/euseS8B.jpg"
         },
         {
+          "index": 22,
           "brand": "Vera Wang",
           "year": 2019,
           "season": "RTW Fall",
