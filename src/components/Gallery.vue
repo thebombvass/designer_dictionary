@@ -22,7 +22,7 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.cover_photo" alt="cover">
+                            <img class="d-block w-100" v-bind:src="show.cover_photo" alt="cover">
                             <div class="mask rgba-black-light"></div>
                         </div>
 
@@ -30,63 +30,63 @@
                         <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_1" alt="photo1">
+                            <img class="d-block w-100" v-bind:src="show.photo_1" alt="photo1">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>
                         <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_2" alt="photo2">
+                            <img class="d-block w-100" v-bind:src="show.photo_2" alt="photo2">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>
                          <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_3" alt="photo3">
+                            <img class="d-block w-100" v-bind:src="show.photo_3" alt="photo3">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>
                          <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_4" alt="photo4">
+                            <img class="d-block w-100" v-bind:src="show.photo_4" alt="photo4">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>
                          <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_5" alt="photo5">
+                            <img class="d-block w-100" v-bind:src="show.photo_5" alt="photo5">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>
                         <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_6" alt="photo6">
+                            <img class="d-block w-100" v-bind:src="show.photo_6" alt="photo6">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>
                          <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_7" alt="photo7">
+                            <img class="d-block w-100" v-bind:src="show.photo_7" alt="photo7">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>
                          <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_8" alt="photo8">
+                            <img class="d-block w-100" v-bind:src="show.photo_8" alt="photo8">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>
                         <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" v-bind:src="`/assets/` + show.photo_9" alt="photo9">
+                            <img class="d-block w-100" v-bind:src="show.photo_9" alt="photo9">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         </div>

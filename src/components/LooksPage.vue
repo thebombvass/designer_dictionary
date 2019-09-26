@@ -31,7 +31,7 @@
         <ul class="list-unstyled">
             <li v-for="show in shows" v-bind:key="show.index" v-bind:ref="show.season">
                 <div class="d-flex align-items-center">
-                <img v-bind:src="`/assets/`+show.cover_photo"> 
+                <img v-bind:src="show.cover_photo"> 
                 <span>
                 <h5>{{show.brand}}</h5>
                 <p>{{show.season}}, {{show.year}}</p>

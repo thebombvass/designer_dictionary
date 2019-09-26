@@ -83,7 +83,7 @@ export default {
         },
         brand_logo() {
             return json.brands.map((item) => {
-            return '/assets/' + item.brand_logo
+            return "ajhfasdjf" + item.brand_logo
             })
         },
     },
