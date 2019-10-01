@@ -135,7 +135,7 @@ export default {
 <style scoped>
 #gallery {
     background-color: #141414;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .info {

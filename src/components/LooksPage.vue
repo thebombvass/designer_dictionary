@@ -113,6 +113,7 @@ export default {
 #listingPage {
     background-color: #141414;
     padding-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 form {
@@ -136,6 +137,7 @@ li span {
 
 li h5 {
     font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 li p {

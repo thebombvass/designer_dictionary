@@ -4,7 +4,7 @@
         <div>
             <p> Designer Dictionary </p>
             <div id="btn-container" class="d-flex justify-content-center align-items-end">
-                <button @click="$emit('see-details', ['ListingPage',''])" class="btn">Get Started</button>
+                <button @click="signIn" class="btn">Sign In</button>
             </div>
          </div>
     </div>
@@ -12,8 +12,17 @@
 </template>
 
 <script>
+import firebase from 'firebase'
+import {config} from '../helpers/firebaseConfig'
+
 export default {
     name: 'LandingHome',
+    methods: {
+        signIn: function() {
+            let provider = new firebase.auth.GoogleAuthProvider();
+            firebase.auth().signInWithPopup(provider);
+        },
+    },
 }
 </script>
 
