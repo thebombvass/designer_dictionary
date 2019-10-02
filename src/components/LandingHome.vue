@@ -20,7 +20,7 @@ export default {
     methods: {
         signIn: function() {
             let provider = new firebase.auth.GoogleAuthProvider();
-            firebase.auth().signInWithPopup(provider);
+            firebase.auth().signInWithRedirect(provider);
         },
     },
 }

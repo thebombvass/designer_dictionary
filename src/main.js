@@ -16,7 +16,7 @@ new Vue({
   router,
   created() {
     let currentUID;
-    function onAuthStateChanged(user) {
+    function isUserLoggedIn(user) {
         if (user) {
             currentUID = user.uid;
             console.log("User is signed in");
@@ -30,7 +30,7 @@ new Vue({
 
         }
     }
-    firebase.auth().onAuthStateChanged(onAuthStateChanged);
+    firebase.auth().onAuthStateChanged(isUserLoggedIn);
 },
   render: h => h(App),
 }).$mount('#app')
