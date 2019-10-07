@@ -114,11 +114,40 @@ Mimi Pink - rgb(255, 202, 214);
 Sinopia - #EA410E;
 */
 
+/* Iphone5/SE, 6/7/8, 6/7/8+ X sideways*/
+@media only screen and (min-height: 300px) and (max-height: 450px) {
 header {
   position: sticky;
   top: 0;
+  height: 66px;
   z-index: 1;
+  border-bottom: 1px solid gray;
 }
+
+.navbar {
+  background-color: #141414;
+  padding: 0;
+  height: 65px;
+}
+
+}
+
+/* Iphone5/SE, 6/7/8, 6/7/8+ X vertical*/
+@media only screen and (min-height: 500px) and (max-height: 900px) {
+  header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1px solid gray;
+}
+
+.navbar {
+  background-color: #141414;
+  padding: 0;
+}
+
+}
+
 
 button:focus {
   outline: 0; /* FIX */
@@ -128,10 +157,6 @@ nav {
   width: 100%;
 }
 
-.navbar {
-  background-color: #141414;
-  padding: 0;
-}
 .navbar-collapse {
   background-color: rgb(253, 226, 226);
   font-size: 18px;

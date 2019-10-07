@@ -133,6 +133,8 @@ export default {
 </script>
 
 <style scoped>
+/* style wo media queries */
+
 #gallery {
     background-color: #141414;
     padding-bottom: 50px;
@@ -145,17 +147,21 @@ export default {
     margin-top: 10px;
 }
 
+/* CSS dependent on screen size here, and in this order: IXV, I5/SEV, I5S, I6-8+S, IXS */
+/* above, I=phone, V= vertical, S= sideways */
 
+/* IphoneX Vertical */
 @media only screen and (min-height: 800px) and (max-height: 900px) {
    #gallery {
     background-color: #141414;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
     } 
     #carousel-example-2 {
         margin-top: 40px;
     }
     .info {
-        margin-top: 30px;
+        margin-top: 40px;
+        font-size: 24px;
     }
     .container-gallery {
     display: flex;
@@ -164,9 +170,10 @@ export default {
     }
 }
 
+/* Iphone5/SE Vertical */
 @media only screen and (min-height: 500px) and (max-height: 600px) {
     .info {
-        font-size: 18px;
+        font-size: 16px;
     }
     .carousel-item {
         height: 420px;
@@ -178,18 +185,63 @@ export default {
     }
 }
 
-@media only screen and (min-height: 300px) and (max-height: 450px) {
+/* Iphone5 Sideways */
+@media only screen and (min-height: 300px) and (max-height: 350px) {
     .container-gallery {
         display: flex;
+        height: 205px;
     }
     #carousel-example-2 {
-        height: 270px;
+        height: 240px;
+        width: 160px;
+        margin-left: 80px;
+    }
+    .carousel-item {
+        margin-top: 5px;
+        height: 240px;
+        width: 160px;
+    }
+    .info {
+        align-self: center;
+    }
+}
+
+/* Iphone6/7/8 and 6/7/8+ Sideways */
+@media only screen and (min-height: 350px) and (max-height: 400px) {
+    .container-gallery {
+        display: flex;
+        height: 260px;
+    }
+    #carousel-example-2 {
+        height: 290px;
         width: 200px;
         margin-left: 80px;
     }
     .carousel-item {
-        height: 270px;
+        margin-top: 5px;
+        height: 290px;
         width: 200px;
+    }
+    .info {
+        align-self: center;
+    }
+}
+
+/* IphoneX Sideways */
+@media only screen and (min-height: 400px) and (max-height: 450px) {
+    .container-gallery {
+        display: flex;
+        height: 300px;
+    }
+    #carousel-example-2 {
+        height: 320px;
+        width: 220px;
+        margin-left: 80px;
+    }
+    .carousel-item {
+        margin-top: 5px;
+        height: 320px;
+        width: 220px;
     }
     .info {
         align-self: center;

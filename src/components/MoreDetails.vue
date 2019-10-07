@@ -60,6 +60,10 @@ export default {
 </script>
 
 <style scoped>
+/* CSS dependent on screen size here, and in this order: I6-XV,I6-8+S, IXS, I5S */
+/* above, I=phone, V= vertical, S= sideways */
+
+/* Iphone 6-X Vertical */
 @media only screen and (min-height: 550px) and (max-height: 900px) {
     .container-info {
         display: flex;
@@ -86,7 +90,7 @@ export default {
 }
 
 }
-
+/* Iphone 6-8+ Sideways */
 @media only screen and (min-height: 300px) and (max-height: 450px) {
     .container-info {
         display: flex;
@@ -120,16 +124,33 @@ export default {
     #bio {
         display: flex;
     }
+
     #bio p {
-        width: 500px;
+        width: 550px;
         margin-left: 10px;
     }
+    
     h5 {
         margin-left: 10px;
     }
-
 }
 
+/*Iphone X Sideways */
+@media only screen and (min-height: 300px) and (max-height: 450px) and (min-width: 700px) {
+#bio p {
+        width: 600px;
+        margin-left: 10px;
+    }
+}
+
+/*Iphone 5 Sideways */
+@media only screen and (min-height: 300px) and (max-height: 450px) and (max-width: 600px) {
+#bio p {
+        width: 450px;
+        margin-left: 10px;
+    }
+}
+/* styling without media queries */
 h5 {
     font-weight: 600;
 }
